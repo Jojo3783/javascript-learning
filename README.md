@@ -5,7 +5,7 @@
 ## 📺 課程資訊
 * **來源影片**: [【 JavaScript 】 6 小時初學者課程](https://www.youtube.com/watch?v=LEwi44cWBu8)
 * **講師**: CodeShiba 程式柴
-* **狀態**: 進行中
+* **狀態**: 已完成
 
 ## 📂 專案結構 (Project Structure)
 本儲存庫按照影片章節進行分類，每個資料夾包含該章節的練習程式碼與筆記：
