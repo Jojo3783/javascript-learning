@@ -23,7 +23,7 @@
 ├── StopWatch/          # 碼錶 
 ├── RPS_Game/           # 剪刀石頭布
 └── DOM_Practice/       # 狗狗產生器\
-text```
+
 ### 🟢  SuperSimpleDev 課程 (進行中)
 
 SuperSimpleDev/
