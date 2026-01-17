@@ -19,7 +19,7 @@
 
 ### 🟢 CodeShiba 課程 (已完成)
 ```
-codeShiba/
+CodeShiba/
 ├── DOM Manipulation Practice/      # DOM 練習 (黃綠紅選擇器等)
 ├── StopWatch/          # 碼錶 
 ├── RPS_Game/           # 剪刀石頭布
