@@ -23,9 +23,32 @@
 ├── TipCalculator/      # DOM 練習 (黃綠紅選擇器等)
 ├── StopWatch/          # 碼錶 
 ├── RPS_Game/           # 剪刀石頭布
-└── DOM_Practice/       # 狗狗產生器
+└── DOM_Practice/       # 狗狗產生器\
+### 🟢  SuperSimpleDev 課程 (進行中)
+```text
 ├── SuperSimpleDev/
-│   ├── 01_Variables/       
-│   ├── 02_Booleans/        
-│   ├── 03_RockPaperScissors/
-│   └── ...
+│   ├── 01_Variables       
+│   ├── 02_Booleans        
+│   ├── 03_string
+│   ├── 04_HTML CSS Review, console.log
+│   ├── 05_Variables
+│   ├── 06_Booleans and If-Statements
+│   ├── 07_Functions
+│   ├── 08_Objects
+│   ├── 09_Document Object Model (DOM)
+│   ├── 10_HTML, CSS, and JavaScript Together
+│   ├── 11_Arrays and Loops(part1 and part2)
+│   ├── 12_Advanced Functions(part1 and part2)
+│   ├── 13_Start the Amazon Project and Intro to Git
+│   ├── 14_Modules
+│   ├── 15_External Libraries
+│   ├── 16_Testing
+│   │    └── Testing Frameworks
+│   ├── 17_Object-Oriented Programming(OOP)
+│   │    ├── Classes
+│   │    └── Inheritance
+│   └── 18_Intro to Backend, Callbacks, Async Await
+│        ├── Promises and fetch
+│        ├── Async Await
+│        └── Next steps after this course
+
