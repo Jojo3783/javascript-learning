@@ -19,7 +19,8 @@
 
 ### 🟢 CodeShiba 課程 (已完成)
 ```
-├── TipCalculator/      # DOM 練習 (黃綠紅選擇器等)
+codeShiba/
+├── DOM Manipulation Practice/      # DOM 練習 (黃綠紅選擇器等)
 ├── StopWatch/          # 碼錶 
 ├── RPS_Game/           # 剪刀石頭布
 └── DOM_Practice/       # 狗狗產生器
