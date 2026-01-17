@@ -18,14 +18,13 @@
 本儲存庫按照課程來源與章節進行分類，每個資料夾包含實做練習程式碼：
 
 ### 🟢 CodeShiba 課程 (已完成)
-```text
 
 ├── TipCalculator/      # DOM 練習 (黃綠紅選擇器等)
 ├── StopWatch/          # 碼錶 
 ├── RPS_Game/           # 剪刀石頭布
 └── DOM_Practice/       # 狗狗產生器\
 ### 🟢  SuperSimpleDev 課程 (進行中)
-```text
+
 ├── SuperSimpleDev/
 │   ├── 01_Variables       
 │   ├── 02_Booleans        
