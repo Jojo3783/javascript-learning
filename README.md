@@ -18,36 +18,37 @@
 本儲存庫按照課程來源與章節進行分類，每個資料夾包含實做練習程式碼：
 
 ### 🟢 CodeShiba 課程 (已完成)
-
+```text
 ├── TipCalculator/      # DOM 練習 (黃綠紅選擇器等)
 ├── StopWatch/          # 碼錶 
 ├── RPS_Game/           # 剪刀石頭布
 └── DOM_Practice/       # 狗狗產生器\
+text```
 ### 🟢  SuperSimpleDev 課程 (進行中)
 
-├── SuperSimpleDev/
-│   ├── 01_Variables       
-│   ├── 02_Booleans        
-│   ├── 03_string
-│   ├── 04_HTML CSS Review, console.log
-│   ├── 05_Variables
-│   ├── 06_Booleans and If-Statements
-│   ├── 07_Functions
-│   ├── 08_Objects
-│   ├── 09_Document Object Model (DOM)
-│   ├── 10_HTML, CSS, and JavaScript Together
-│   ├── 11_Arrays and Loops(part1 and part2)
-│   ├── 12_Advanced Functions(part1 and part2)
-│   ├── 13_Start the Amazon Project and Intro to Git
-│   ├── 14_Modules
-│   ├── 15_External Libraries
-│   ├── 16_Testing
-│   │    └── Testing Frameworks
-│   ├── 17_Object-Oriented Programming(OOP)
-│   │    ├── Classes
-│   │    └── Inheritance
-│   └── 18_Intro to Backend, Callbacks, Async Await
-│        ├── Promises and fetch
-│        ├── Async Await
-│        └── Next steps after this course
+SuperSimpleDev/
+├── 01_Basics/
+├── 02_Math/
+├── 03_Strings/
+├── 04_HTML_CSS_Review/
+├── 05_Variables/
+├── 06_Booleans_If/
+├── 07_Functions/
+├── 08_Objects/
+├── 09_DOM/
+├── 10_HTML_CSS_JS/
+├── 11_Arrays_Loops/
+├── 12_Advanced_Functions/
+├── 13_Amazon_Project/
+├── 14_Modules/
+├── 15_External_Libraries/
+├── 16_Testing/
+│   └── Testing_Frameworks/
+├── 17_OOP/
+│   ├── Classes/
+│   └── Inheritance/
+└── 18_Backend_Async/
+    ├── Promises_Fetch/
+    ├── Async_Await/
+    └── Next_Steps/
 
