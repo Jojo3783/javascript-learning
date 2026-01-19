@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+  <body>
+    <script>
+      function convertLength(length, from, to ) {
+        let convertLength;
+        if(from !== 'miles' || from !== 'km' || from !== 'ft') {
+          console.log(`Invalid unit: ${from}`);
+          return;
+        }
+        else if(to !== 'miles' || to !== 'km' || to !== 'ft') {
+          console.log(`Invalid unit: ${to}`);
+          return;
+        }
+         
+        if(from === 'miles' && to === 'km') {
+          convertLength = length * 1.6;
+        }
+        else if(from === 'km' && to === 'miles') {
+          convertLength = length / 1.6;
+        }
+        else if(from === 'ft' && to === 'miles') {
+          convertLength = length / 5280;
+        }
+        else if(from === 'ft' && to === 'km') {
+          convertLength = length / 3281;
+        }
+        else if(from === 'miles' && to === 'ft') {
+          convertLength = length * 5280;
+        }
+        else if(from === 'km' && to === 'ft') {
+          convertLength = length * 3281;
+        }
+        else if (from === to) {
+          convertLength = length;
+        }
+        console.log(`${length} ${from} equal to ${convertLength} ${to}`);
+      }
+      convertLength(5,'lbs','lbs');
+    </script>
+  </body>
+</html>

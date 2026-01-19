@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    function converetTEmperature(degree, unit) {
+      if(unit === 'F') {
+        return (degree - 32) * 5 / 9;
+      }
+      else if(unit === 'C') {
+        return (degree * 9 / 5) + 32;
+      }
+    } 
+    console.log(converetTEmperature(86,'F'));
+    console.log(converetTEmperature(25,'C'));
+  </script>
+</body>
+</html>
