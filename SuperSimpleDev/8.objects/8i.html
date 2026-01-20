@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+  <body>
+    <button onclick="
+    playGame('hands');
+    ">heads</button>
+    <button onclick="
+      playGame('tails');
+    ">tails</button>
+    <script>
+      function playGame(guess) {
+        const number = Math.random();
+        const result = number <= 0.5 ? 'hands' : 'tails';
+        const ans = (guess == result) ? 'You win' : 'You lost';
+        console.log(ans);
+      }
+    </script>
+  </body>
+</html>
