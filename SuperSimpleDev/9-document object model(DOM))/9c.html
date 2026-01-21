@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <button onclick="
+    pressbutton('heads');
+  ">heads</button>
+  <button onclick="
+    pressbutton('tails');
+  ">tails</button>
+  <p class="js-chose"></p>
+  <script>
+    function pressbutton(parameter) {
+      document.querySelector('.js-chose').innerHTML = `You chose:  ${parameter}`;
+    }
+  </script>
+</body>
+</html>

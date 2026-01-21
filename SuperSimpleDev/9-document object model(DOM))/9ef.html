@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <input class="js-input" onkeydown="
+    if(event.key === 'Enter') {
+      showname();
+    }
+    ">  
+  <button onclick="
+    showname();
+  ">Submit</button>
+  <p class = 'js-output'></p>
+  <script>
+    function showname() {
+      const name = document.querySelector('.js-input').value;
+      document.querySelector('.js-output').innerHTML = `Your name is: ${name}`;
+    }
+  </script>
+</body>
+</html>
