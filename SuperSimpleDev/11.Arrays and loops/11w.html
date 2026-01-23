@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    let s1 = ['green', 'red', 'blue', 'red'];
+    let s2 = ['red', 'green', 'green', 'red'];
+    function findIndex(arr,goal) {
+      for (let i = 0; i < arr.length; i++) {
+        if(arr[i] === goal) {
+          return i;
+        }
+      }
+      return -1;
+    }
+    function unique(arr) {
+      let string = [];
+      for(let i = 0; i < arr.length; i++) {
+         if(findIndex(string, arr[i]) === -1) {//not found
+          string.push(arr[i]);
+         }
+      }
+      return string;
+    }
+    console.log(unique(s1));
+    console.log(unique(s2));
+  </script>
+</body>
+</html>

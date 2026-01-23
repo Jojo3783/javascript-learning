@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    let foods = ['egg', 'apple', 'egg', 'egg', 'ham'];
+    function removeEgg(arr) {
+      let string = [];
+      const arrCopy = arr.slice();
+      const reverseArrCopy = arrCopy.reverse();
+      let removeEgg = 0;
+      for (let i = 0; i < reverseArrCopy.length; i++) {
+        if(reverseArrCopy[i] === 'egg' && removeEgg != 2) {
+          removeEgg++;
+          continue;    
+        }
+        string.push(reverseArrCopy[i]);
+      }
+      return string.reverse();
+    }
+    console.log(removeEgg(foods));
+    console.log(foods);
+  </script>
+</body>
+</html>

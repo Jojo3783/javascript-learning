@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    let string = [];
+    let s1 = ['egg', 'apple', 'egg', 'egg', 'ham'];
+    function removeEgg(arr) {
+      let removeEgg = 0;
+      for (let i = 0; i < s1.length; i++) {
+        if(arr[i] === 'egg' && removeEgg != 2) {
+          removeEgg++;
+          continue;    
+        }
+        string.push(arr[i]);
+      }
+      return string;
+    }
+    console.log(removeEgg(s1));
+  </script>
+</body>
+</html>

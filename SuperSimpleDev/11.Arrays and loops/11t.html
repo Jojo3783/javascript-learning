@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    let string = [];
+    let s1 = ['egg', 'apple', 'egg', 'egg', 'ham'];
+    function removeEgg(arr) {
+      const reversearr = arr.reverse();
+      let removeEgg = 0;
+      for (let i = 0; i < s1.length; i++) {
+        if(reversearr[i] === 'egg' && removeEgg != 2) {
+          removeEgg++;
+          continue;    
+        }
+        string.push(reversearr[i]);
+      }
+      return string.reverse();
+    }
+    console.log(removeEgg(s1));
+  </script>
+</body>
+</html>

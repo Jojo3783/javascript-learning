@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    let s1 = ['Hello', 'world', 'search', 'good'];
+    let s2 = ['not', 'found'];
+    function findSearch(arr) {
+      for (let i = 0; i < arr.length; i++) {
+        if(arr[i] === 'search') {
+          console.log(i);
+          return;
+        }
+      }
+      console.log(-1);
+    }
+    findSearch(s1);
+    findSearch(s2);
+  </script>
+</body>
+</html>

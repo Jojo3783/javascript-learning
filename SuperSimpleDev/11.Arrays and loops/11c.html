@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    function arraySwap(arr) {
+      for (let i = 0;i < arr.length/2; i++) {
+        let temp = arr[i];
+        arr[i] = arr[arr.length-1-i];
+        arr[arr.length-1-i] = temp;
+      }
+      return arr;
+    }
+    console.log(arraySwap([1,2,3,4,5]));
+    console.log(arraySwap(['hi', 'good', 'hello']));
+  </script>
+</body>
+</html>

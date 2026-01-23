@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+  <body>
+    <script>
+      function addOne(arr, num) {
+        for (let i = 0; i < arr.length; i++) {
+          arr[i] += num;
+        }
+        return arr;
+      }
+      console.log(addOne([1,2,3],2));
+      console.log(addOne([1,2,3],3));
+      console.log(addOne([-2,-1,0,99],2));
+    </script>
+  </body>
+</html>

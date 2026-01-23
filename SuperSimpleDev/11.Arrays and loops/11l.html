@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    function minMax(arr) {
+      const result = {
+          min: arr[0],
+          max: arr[0]
+        };
+      for (let i = 1; i < arr.length; i++) {
+        if(arr[i] > result.max) {
+          result.max = arr[i];
+        }
+        if(arr[i] < result.min) {
+          result.min = arr[i];
+        }
+      }
+      return result;
+    }
+    console.log(minMax([1,-3,5]));
+    console.log(minMax([-2,3,-5,7,10]));
+  </script>
+</body>
+</html>
