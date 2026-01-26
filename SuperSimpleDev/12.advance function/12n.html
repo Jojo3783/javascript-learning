@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+     function removeEgg(foods) {
+        const ans = foods.filter((food) => {
+          if(food != 'egg') {
+            return true;
+          }
+          return false;
+        });
+        return ans;
+       //return (foods.filter(food => food !== 'egg'));
+     }
+     console.log(removeEgg(['egg', 'apple']));
+  </script>
+</body>
+</html>

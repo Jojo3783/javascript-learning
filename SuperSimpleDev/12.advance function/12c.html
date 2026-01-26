@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <button class = "start-button">Start</button>
+  <script>
+    document.querySelector('.start-button').addEventListener('click', function () {
+      update();
+    });
+    const update = () => {
+       buttonElement = document.querySelector('.start-button');
+      setTimeout(function () {
+        buttonElement.innerText = 'Finished!';
+      }, 1000)
+    }
+  </script>
+</body>
+</html>

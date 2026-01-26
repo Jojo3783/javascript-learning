@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+</head>
+  <body>
+    <script>
+      startShowMessage();
+      const startShowMessage = () => {
+        setInterval(function () {
+          document.title = '(2) New message';
+        }, 1000)
+        setInterval(function () {
+          document.title = 'App';
+        }, 2000)
+      }
+    </script>
+  </body>
+</html>

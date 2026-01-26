@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <button class="Add-to-caet-button" >Add to cart</button>
+  <p class="added-message"></p>
+  <script>
+    document.querySelector('.Add-to-caet-button').addEventListener('click', function () {
+      showText();
+    });
+    const showText = () => {
+      messageElement = document.querySelector('.added-message');
+      messageElement.innerText = 'Added';
+      setTimeout(function() {
+        messageElement.innerText = '';
+      }, 2000);
+    }
+  </script>
+</body>
+</html>

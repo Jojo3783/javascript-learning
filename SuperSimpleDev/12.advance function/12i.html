@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+</head>
+  <body>
+    <button class = "add-button">Add</button>
+    <button class = "remove-button">Remove</button>
+
+
+    <script>
+      let message = 2;
+      let messageId;
+      let isShowMessage;
+       const stopShowMessage = () => {
+        clearInterval(messageId);
+        isShowMessage = false;
+      }
+      const startShowMessage = () => {
+         if(isShowMessage) {
+          return;
+        }
+        isShowMessage = true;
+        messageId = setInterval(function () {
+          document.title = `(${message}) New message`;
+        }, 1000)
+        setInterval(function () {
+          document.title = 'App';
+        }, 2000)
+      }
+      startShowMessage();
+      document.querySelector('.add-button').addEventListener('click', function () {
+        message++;
+        startShowMessage();
+      });
+      document.querySelector('.remove-button').addEventListener('click', function () {
+        if(message === 0) {
+          return;
+        }
+        message--;
+        if(message === 0) {
+          stopShowMessage();
+        }
+      });
+        
+    </script>
+  </body>
+</html>

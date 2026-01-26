@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+</head>
+  <body>
+    <button class = "add-button">Add</button>
+    <button class = "remove-button">Remove</button>
+    <script>
+      let message = 2;
+      document.querySelector('.add-button').addEventListener('click', function () {
+        message++;
+      });
+      document.querySelector('.remove-button').addEventListener('click', function () {
+        message--;
+      });
+      const startShowMessage = () => {
+        setInterval(function () {
+          document.title = `(${message}) New message`;
+        }, 1000)
+        setInterval(function () {
+          document.title = 'App';
+        }, 2000)
+      }
+      startShowMessage();
+      
+    </script>
+  </body>
+</html>
