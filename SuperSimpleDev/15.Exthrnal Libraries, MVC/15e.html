@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <script type="module">
+    import dayjs from "https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js";
+    function isWeekend(date) {
+      const dateString = date.format('dddd');
+      if(dateString === 'Saturday' || dateString === 'Sunday') {
+        console.log('Is weekend');
+      }
+      else {
+        console.log('Not weekend');
+      }
+    }
+    let date = dayjs();
+    console.log(date.format('dddd MMMM D'));
+    isWeekend(date);
+
+    date = dayjs().add(2, 'days');
+    console.log(date.format('dddd MMMM D'));
+    isWeekend(date);
+
+    date = dayjs().add(4, 'days');
+    console.log(date.format('dddd MMMM D'));
+    isWeekend(date);
+
+    date = dayjs().add(6, 'days');
+    console.log(date.format('dddd MMMM D'));
+    isWeekend(date);
+  </script>
+</body>
+</html>

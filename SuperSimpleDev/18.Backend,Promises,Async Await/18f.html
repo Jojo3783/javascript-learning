@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+  async function greetingName() {
+    const salute = await fetch('https://supersimplebackend.dev/greeting', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json; charset=UTF-8'
+      },
+      body: JSON.stringify({ name: 'Joe' }),
+    }).catch(error => console.log(error))
+    const greeting = await salute.text()
+    console.log(greeting)
+  }
+  greetingName()
+  </script> 
+</body>
+</html>

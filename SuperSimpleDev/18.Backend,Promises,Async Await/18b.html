@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    fetch('https://supersimplebackend.dev/products').then((response) => {//make http request and default is GET
+    return response.text();
+  }).then((text) => {
+    console.log(text)
+  })
+  </script>
+</body>
+</html>
