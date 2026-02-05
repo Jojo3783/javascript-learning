@@ -12,7 +12,8 @@
 ### 2. SuperSimpleDev - JavaScript Full Course (Beginner to Pro)
 * **來源影片**: [JavaScript Tutorial Full Course - Beginner to Pro](https://youtu.be/EerdGm-ehJQ?si=kgOn-FDt-AcXmAbX)
 * **講師**: SuperSimpleDev
-* **狀態**: 🏃‍♂️ 學習中 (In Progress)
+* **狀態**: ✅ 已完成
+* **13章之後的練習題已經統整在amazon final project中
 
 ## 📂 專案結構 (Project Structure)
 本儲存庫按照課程來源與章節進行分類，每個資料夾包含實做練習程式碼：
@@ -25,7 +26,7 @@ CodeShiba/
 ├── RPS_Game/           # 剪刀石頭布
 └── DOM_Practice/       # 狗狗產生器
 ```
-### 🟢  SuperSimpleDev 課程 (進行中)
+### 🟢  SuperSimpleDev 課程 (已完成)
 ```
 SuperSimpleDev/
 ├── 01_Basics/
